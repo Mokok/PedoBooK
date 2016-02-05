@@ -30,6 +30,20 @@
          activate_page("#Profile"); 
     });
     
+        /* button  #Register_b */
+    $(document).on("click", "#Register_b", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Register_forum"); 
+    });
+    
+        /* button  #Login_b */
+    $(document).on("click", "#Login_b", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#Profile"); 
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
